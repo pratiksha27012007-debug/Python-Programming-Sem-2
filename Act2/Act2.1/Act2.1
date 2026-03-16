@@ -1,0 +1,19 @@
+#A traffic police system checks if a driver is overspeeding. If speed > 60 km/h, show fine
+
+"""
+Created on Mon Mar 16 15:37:17 2026
+
+@author: Pratiksha
+"""
+
+# Traffic Speed Monitor
+
+# 1. Capture the driver's speed
+speed = float(input("Enter driver's speed (km/h): "))
+
+# 2. Check if speed exceeds the 60 km/h limit
+if speed > 60:
+    print("OVERSPEEDING DETECTED!")
+    print("Fine issued: Please slow down to ensure road safety.")
+else:
+    print("Speed within limits. Drive safe!")
