@@ -1,4 +1,5 @@
-## -*- coding: utf-8 -*-
+## Python program to demonstrate basic dictionary operations:
+add, delete, and update key-value pairs
 """
 Created on Mon Mar  9 09:37:11 2026
 
