@@ -5,13 +5,6 @@ Created on Mon Apr 27 15:36:01 2026
 @author: pratiksha
 """
 
-# Create an Employee class that calculates salary with bonus.
-"""
-Created on Mon Apr 13 15:16:02 2026
-
-@author: DIKSHA
-"""
-
 class Employee:
     def __init__(self, name, salary, bonus_percentage):
         self.name = name
