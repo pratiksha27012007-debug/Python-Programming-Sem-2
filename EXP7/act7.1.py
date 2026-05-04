@@ -5,8 +5,6 @@ Created on Mon Apr 27 15:26:40 2026
 @author: pratiksha
 """
 
-
-
 class Student:
     def __init__(self, name, m1, m2, m3):
         self.name = name
