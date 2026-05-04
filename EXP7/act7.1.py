@@ -5,12 +5,7 @@ Created on Mon Apr 27 15:26:40 2026
 @author: pratiksha
 """
 
-# Create a Student class that calculates grade.
-"""
-Created on Mon Apr 13 15:12:44 2026
 
-@author: DIKSHA
-"""
 
 class Student:
     def __init__(self, name, m1, m2, m3):
