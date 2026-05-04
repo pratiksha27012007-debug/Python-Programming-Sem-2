@@ -1,0 +1,33 @@
+# Create a Vehicle class to display fuel efficiency.
+"""
+Created on Mon May  4 14:34:54 2026
+
+@author: pratiksha
+"""
+
+class Vehicle:
+    def __init__(self, name, fuel_consumed, distance_travelled):
+        # Initialize attributes
+        self.name = name
+        self.fuel_consumed = fuel_consumed  # in liters
+        self.distance_travelled = distance_travelled  # in kilometers
+
+    def fuel_efficiency(self):
+        # Calculate fuel efficiency (km per liter)
+        if self.fuel_consumed == 0:
+            return 0
+        return self.distance_travelled / self.fuel_consumed
+
+    def display_info(self):
+        # Display vehicle details and efficiency
+        print(f"Vehicle: {self.name}")
+        print(f"Distance Travelled: {self.distance_travelled} km")
+        print(f"Fuel Consumed: {self.fuel_consumed} liters")
+        print(f"Fuel Efficiency: {self.fuel_efficiency():.2f} km/l")
+
+# Example usage
+car = Vehicle("Sedan", 50, 600)
+car.display_info()
+
+bike = Vehicle("Motorbike", 10, 300)
+bike.display_info()
